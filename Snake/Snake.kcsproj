@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<KeyofCSharp Version="1.0">
+  <Files>
+    <File RelPath="Snake.cs" />
+  </Files>
+  <References />
+  <Settings CheckForOverflowUnderflow="False" DefineConstants="" DebugSymbols="False" DocumentationFile="" StartupObject="" Optimize="True" OutputType="Exe" AllowUnsafeBlocks="False" WarningLevel="4" TreatWarningsAsErrors="False" ApplicationIcon="" />
+</KeyofCSharp>
