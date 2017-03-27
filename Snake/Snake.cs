@@ -7,7 +7,9 @@ namespace Snake
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!");
+            Console.WriteLine("Повторение - мать учение.");
             Console.ReadLine();
+            
         }
     }
 }
