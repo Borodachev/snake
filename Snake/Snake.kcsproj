@@ -3,6 +3,8 @@
   <Files>
     <File RelPath="Snake.cs" />
     <File RelPath="Point.cs" />
+    <File RelPath="HorizontalLine.cs" />
+    <File RelPath="VerticalLine.cs" />
   </Files>
   <References>
     <Reference Name="System.Data" />
