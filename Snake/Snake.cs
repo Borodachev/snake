@@ -18,8 +18,9 @@ namespace Snake
             vL1.Drow();
             vL2.Drow();
             
-            Point p1=new Point(1, 3, '*');            
-            p1.Draw();
+            Point p1=new Point(8, 13, '*');            
+            Snake snake=new Snake(p1, 6, Direction.RIGHT);
+            snake.Drow();
                         
             Console.ReadLine();
         }

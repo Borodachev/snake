@@ -6,6 +6,8 @@
     <File RelPath="HorizontalLine.cs" />
     <File RelPath="VerticalLine.cs" />
     <File RelPath="Figure.cs" />
+    <File RelPath="Snake_class.cs" />
+    <File RelPath="Direction.cs" />
   </Files>
   <References>
     <Reference Name="System.Data" />
