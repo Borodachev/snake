@@ -5,6 +5,7 @@
     <File RelPath="Point.cs" />
     <File RelPath="HorizontalLine.cs" />
     <File RelPath="VerticalLine.cs" />
+    <File RelPath="Figure.cs" />
   </Files>
   <References>
     <Reference Name="System.Data" />
