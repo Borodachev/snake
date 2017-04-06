@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace Snake
 {
@@ -21,6 +22,16 @@ namespace Snake
             Point p1=new Point(8, 13, '*');            
             Snake snake=new Snake(p1, 6, Direction.RIGHT);
             snake.Drow();
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
                         
             Console.ReadLine();
         }

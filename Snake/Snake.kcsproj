@@ -11,6 +11,7 @@
   </Files>
   <References>
     <Reference Name="System.Data" />
+    <Reference Name="System.Core" HintPath="C:\Windows\winsxs\x86_netfx35linq-system.core_31bf3856ad364e35_6.1.7601.17514_none_6161fc35ed136622\System.Core.dll" Private="True" />
   </References>
   <Settings CheckForOverflowUnderflow="False" DefineConstants="" DebugSymbols="False" DocumentationFile="" StartupObject="" Optimize="True" OutputType="Exe" AllowUnsafeBlocks="False" WarningLevel="4" TreatWarningsAsErrors="False" ApplicationIcon="" />
 </KeyofCSharp>
