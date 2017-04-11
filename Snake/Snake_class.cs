@@ -17,7 +17,7 @@ namespace Snake
             for(int i=0; i<lenght; i++)
             {
                 Point p=new Point(tail);
-                p.Move(i, direct);
+                p.Move(i, direction);
                 pLine.Add(p);
             }
         }
@@ -26,19 +26,19 @@ namespace Snake
         {
             Point p_z=pLine[0];
             pLine.Remove(p_z);
-            Point p_p=GetNextPoint();
-            pLine.Add(p_p);
+            Point p_new=GetNextPoint();
+            pLine.Add(p_new);
             
             p_z.Clear();
-            p_p.Draw();
+            p_new.Draw();
         }
         
         public Point GetNextPoint()
         {
-            Point p_x=pLine[pLine.Count-1];
-            Point p_x1=new Point(p_x);
-            p_x1.Move(1, direction);
-            return p_x1;
+            //Point p_x=pLine[pLine.Count-1];
+            Point p_x=new Point(pLine[pLine.Count-1]);
+            p_x.Move(1, direction);
+            return p_x;
         }
         
         public void HandleKey(ConsoleKey key)

@@ -4,7 +4,7 @@ namespace Snake
 {
     class Figure
     {
-        protected List<Point> pLine;
+        public List<Point> pLine;
         
         public void Drow()
         {

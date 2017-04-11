@@ -35,7 +35,7 @@ namespace Snake
                 snake.Move();
             }
                                     
-            Console.ReadLine();
+            //Console.ReadLine();
         }
     }
 }
